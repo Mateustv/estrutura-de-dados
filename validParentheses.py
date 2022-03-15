@@ -5,7 +5,6 @@ def solution(str_to_validate):
     ']' : '[',
     '}' : '{'
     }
-
     for s in str_to_validate:
         if s in mapping:
             if len(stack) and mapping[s] == stack.pop():
