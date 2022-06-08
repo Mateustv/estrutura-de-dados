@@ -1,3 +1,15 @@
+# Dado um array numbers com valores 0 e 1, nós podemos alterar K valores de 0 para 1.
+# Retorne o tamanho do maior subarray contínuo que contém apenas 1.
+# Exemplo 1:
+# Entrada:
+# numbers = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], K = 2
+# Saída: 6
+#
+# Exemplo 2:
+# Entrada:
+# numbers = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], K = 3
+# Saída: 10
+
 def solution(numbers: [int], k: int):
     res = []
     test = 0
